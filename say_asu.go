@@ -1,5 +1,5 @@
 package asu
 
-func SayAsu() string {
-	return "hello"
+func SayAsu(name string) string {
+	return "hello "+ name
 }
